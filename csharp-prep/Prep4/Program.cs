@@ -10,7 +10,7 @@ class Program
         int userNumber = -1;
         while (userNumber != 0)
         {
-            Console.Write("Enter a number (0 to quit): ");
+            Console.Write("Enter a number (0 when u finish): ");
             
             string userResponse = Console.ReadLine();
             userNumber = int.Parse(userResponse);
